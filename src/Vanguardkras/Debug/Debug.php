@@ -213,7 +213,7 @@ class Debug
     protected static function wrapDebugDiv(string $value): string
     {
         return '<div style="background-color: black; color: white; padding: '
-        . '5px; font-size: 14px;"><pre style="font-family: Consolas;">'.$value.'</pre><div>';
+        . '5px; font-size: 14px;"><pre style="font-family: Consolas;">'.$value.'</pre></div>';
     }
     
     /**

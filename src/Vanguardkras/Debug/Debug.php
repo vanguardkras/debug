@@ -179,7 +179,7 @@ class Debug
      */
     protected static function procString(string $value): string
     {
-        return static::wrapValue($value);
+        return static::wrapValue(htmlspecialchars($value));
     }
     
     /**
